@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+    .flex-container1 {
+        justify-content: center;
+        display: flex;
+        background-color:Blue;
+  }
+  .flex-container1 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container2 {
+      flex-direction: column;
+    display: flex;
+    background-color:Blue;
+  }
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+    </style>
+ <meta charset="UTF-8">
+ <link rel="icon" href="res/images/favicon.ico">
+ <title>Welcome to postit, please log in</title>
+
+</head>
+<body>
+    <div class="flex-container1">
+        <div class="flex-container2">
+            <div>
+                <img src="res/lehed.JPG" >
+                <h3>Welcome to postIt</h3>
+                
+            </div>
+            <div>
+                <a href="index.html">Create an account</a>
+                <p>Or</p>
+                <p>Please Log In</p>
+
+            </div>
+            <div><form action="/action_page.php">
+                <input type="text" id="fname" name="fname"><br>
+                <input type="text" id="lname" name="lname"><br>
+                <input type="Submit" value="Log in">
+            </form></div>
+        </div>
+    </div>
+</body>
+</html>
+
