@@ -1,3 +1,4 @@
+  
 
   .searchbar{
     width: 300px;
@@ -37,5 +38,65 @@
     flex-direction: row;
   }
 
+  .container  {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
 
+  .box {
+    display: flex;
+    height: 600px;
+    width: 500px;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    position: relative;
+    text-align: center;
+  }
 
+  .singlebox {
+    display: flex;
+    flex-direction: column;
+    background-color:grey;
+    padding: 20px;
+    position: relative;
+  }
+  
+ 
+  .singlebox + .singlebox{
+    padding-top: 0px;
+  }
+
+  .posttop{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(232, 232, 240);
+    flex-direction: row;
+  }
+  .postituseSisu{
+    display:flex;
+    background-color: rgb(232, 232, 240);
+    flex-direction: column;
+  }
+  .postitusePilt{
+    
+  }
+
+  .posttop > label{
+    color: rgb(87, 87, 87);
+    font-size: x-small
+  }
+  .like{
+    height: 20px;
+    width: 20px;
+  }
+
+  .postitusePilt + label{
+    font-size: smaller;
+  }
+
+  .posttop label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
