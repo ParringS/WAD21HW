@@ -30,7 +30,7 @@
   .nav {
     display:flex;
     justify-content: space-between;
-    background-color: rgb(232, 232, 240);
+    background-color: rgb(246, 246, 250);
   }
 
   .nav div {
@@ -59,7 +59,7 @@
   .singlebox {
     display: flex;
     flex-direction: column;
-    background-color:grey;
+    background-color:rgb(246, 246, 250);
     padding: 20px;
     position: relative;
   }
@@ -70,6 +70,7 @@
   }
 
   .posttop{
+    box-shadow: 2px 2px 2px 2px rgb(191, 191, 197);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     display:flex;
@@ -78,6 +79,7 @@
     flex-direction: row;
   }
   .postituseSisu{
+    box-shadow: 2px 2px 2px 2px rgb(191, 191, 197);
     display:flex;
     background-color: rgb(232, 232, 240);
     flex-direction: column;
