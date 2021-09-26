@@ -1,0 +1,21 @@
+
+
+  .container  {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .box {
+    height: 500px;
+    width: 500px;
+    background-color: #f1f1f1;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+  }
+  .logo img{
+    height: 100px;
+    width: 100px;
+  }
