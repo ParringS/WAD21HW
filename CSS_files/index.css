@@ -1,19 +1,29 @@
 
+  .searchbar{
+    width: 300px;
+  }
+
   #navitem{
     margin: 5px;
   }
 
   .imageicon {
     height: 25px;
+    border-radius: 10%;
   }
 
   .submitbutton {
     background-color: rgb(44, 77, 126);
     color: #fff;
-    -moz-border-radius: 5px;
     border-radius:2px;
     cursor: pointer;
     border: none;
+    height: 22px;
+  }
+
+  .submitbutton:hover {
+      color:dodgerblue;
+      background-color: rgb(2, 2, 73);
   }
 
   .nav {
@@ -22,7 +32,7 @@
     background-color: rgb(232, 232, 240);
   }
 
-  .nav > div {
+  .nav div {
     justify-content: space-between;
     flex-direction: row;
   }
