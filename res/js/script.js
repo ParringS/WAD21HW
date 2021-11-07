@@ -13,7 +13,7 @@
   */
 
  $(function() {
-    $.get('https://api.jsonbin.io/b/6188175d820eda3cc81947aa', function(json_obj) {
+    $.get('https://api.jsonbin.io/b/6188175d820eda3cc81947aa/1', function(json_obj) {
       console.log(json_obj)
     for (obj of json_obj) {
 
@@ -26,6 +26,7 @@
 
       let posttop =  document.createElement("div");
       posttop.classList.add("posttop");
+      console.log(posttop.classList)
             
       let aeg = document.createElement("label");
       aeg.innerText = obj.time;
@@ -38,7 +39,7 @@
       
       let picture = obj.image;
       let postituseSisu =  document.createElement("div");
-      posttop.classList.add("postituseSisu");
+      postituseSisu.classList.add("postituseSisu");
       /*
       <div class = "postituseSisu">
             <img src="res/images/pilt2.JPG"  class = "postitusePilt"/>
@@ -46,7 +47,7 @@
             <img src="res/images/like.JPG"  class = "like"/>
           </div>*/
 
-          console.log(picture)
+
 
 
       if (picture!=null){
