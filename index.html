@@ -21,7 +21,13 @@
         </form>
       </div>
       <div class="nav">
-        <img src="res/images/dp.JPG" id="navitem" class="imageicon" />
+        <div class="dropdown">
+          <img src="res/images/dp.JPG" onclick="dropDown()" id="navitem" class="imageicon dropbtn"/>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">John Doe</a>
+            <a href="#">john.doe@example.com</a>
+          </div>
+        </div>
       </div>
     </div>
     <div class = "container">
