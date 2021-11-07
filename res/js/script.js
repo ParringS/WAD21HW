@@ -18,8 +18,6 @@
     for (obj of json_obj) {
 
       //console.log(obj)
-
-      let posts =document.getElementById("posts_field");
         
       let post =  document.createElement("div");
       post.classList.add("singlebox");
@@ -69,7 +67,7 @@
 
       post.appendChild(postituseSisu)
 
-      posts.appendChild(post)
+      $("#posts_field").append(post)
     }
   })
 });
